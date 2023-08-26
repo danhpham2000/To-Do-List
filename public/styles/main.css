@@ -1,0 +1,32 @@
+:root {
+    --color-primary: #F9E0BB;
+    --color-primary-dark: #DFA878;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, 
+    var(--color-primary),
+    var(--color-primary-dark));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
